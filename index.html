@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="./flipchange.css" rel="stylesheet">
+    <title>Flipdom example</title>
+
+</head>
+
+<body>
+    <p style="font-size:3em">
+        <span class="flip" id="tt">
+            hello
+        </span>
+    </p>
+    <input type="text" value="hello" onchange='flip("#tt", this.value);' />
+    <script src="./flipchange.js"></script>
+</body>
+
+</html>
